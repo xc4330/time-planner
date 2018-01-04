@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0780987BCFE3324AA0F75659 /* Pods_time_planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DA3A3BA28FBDB572B2E011 /* Pods_time_planner.framework */; };
+		1B5A708515A00C13A8E63C76 /* Pods_time_plannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E400862DB62F3A7D9E75B7EC /* Pods_time_plannerUITests.framework */; };
 		468F99821FFE299D00EF297E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468F99811FFE299D00EF297E /* AppDelegate.swift */; };
 		468F99841FFE299D00EF297E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468F99831FFE299D00EF297E /* ViewController.swift */; };
 		468F99871FFE299D00EF297E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468F99851FFE299D00EF297E /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		468F998C1FFE299D00EF297E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468F998A1FFE299D00EF297E /* LaunchScreen.storyboard */; };
 		468F99971FFE299E00EF297E /* time_plannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468F99961FFE299E00EF297E /* time_plannerTests.swift */; };
 		468F99A21FFE299E00EF297E /* time_plannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468F99A11FFE299E00EF297E /* time_plannerUITests.swift */; };
+		93FC4063F605B156328A738E /* Pods_time_plannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAFEEBE0BCDAEA4F06E6CAA /* Pods_time_plannerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA7C4B3EE5B073E9C72E795 /* Pods-time-planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-time-planner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-time-planner/Pods-time-planner.debug.xcconfig"; sourceTree = "<group>"; };
+		26DA3A3BA28FBDB572B2E011 /* Pods_time_planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_time_planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAFEEBE0BCDAEA4F06E6CAA /* Pods_time_plannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_time_plannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		468F997E1FFE299D00EF297E /* time-planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "time-planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		468F99811FFE299D00EF297E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		468F99831FFE299D00EF297E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		468F999D1FFE299E00EF297E /* time-plannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "time-plannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		468F99A11FFE299E00EF297E /* time_plannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time_plannerUITests.swift; sourceTree = "<group>"; };
 		468F99A31FFE299E00EF297E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8050FAC75A0F657978CBEAFA /* Pods-time-plannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-time-plannerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-time-plannerUITests/Pods-time-plannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9BB83CF045783710C8EB179 /* Pods-time-plannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-time-plannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-time-plannerTests/Pods-time-plannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF495A58213AF9E4148D1A4F /* Pods-time-plannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-time-plannerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-time-plannerUITests/Pods-time-plannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF8C6FF528972B59C487A769 /* Pods-time-plannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-time-plannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-time-plannerTests/Pods-time-plannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		E400862DB62F3A7D9E75B7EC /* Pods_time_plannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_time_plannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F77F8CA26EACCEBEF5F1D3 /* Pods-time-planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-time-planner.release.xcconfig"; path = "Pods/Target Support Files/Pods-time-planner/Pods-time-planner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0780987BCFE3324AA0F75659 /* Pods_time_planner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FC4063F605B156328A738E /* Pods_time_plannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5A708515A00C13A8E63C76 /* Pods_time_plannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DC9E3BDFC0633F634F82DB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7C4B3EE5B073E9C72E795 /* Pods-time-planner.debug.xcconfig */,
+				F1F77F8CA26EACCEBEF5F1D3 /* Pods-time-planner.release.xcconfig */,
+				B9BB83CF045783710C8EB179 /* Pods-time-plannerTests.debug.xcconfig */,
+				DF8C6FF528972B59C487A769 /* Pods-time-plannerTests.release.xcconfig */,
+				8050FAC75A0F657978CBEAFA /* Pods-time-plannerUITests.debug.xcconfig */,
+				DF495A58213AF9E4148D1A4F /* Pods-time-plannerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		468F99751FFE299D00EF297E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				468F99951FFE299E00EF297E /* time-plannerTests */,
 				468F99A01FFE299E00EF297E /* time-plannerUITests */,
 				468F997F1FFE299D00EF297E /* Products */,
+				2DC9E3BDFC0633F634F82DB4 /* Pods */,
+				EEC985D9A614F3949CB8EDA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "time-plannerUITests";
 			sourceTree = "<group>";
 		};
+		EEC985D9A614F3949CB8EDA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26DA3A3BA28FBDB572B2E011 /* Pods_time_planner.framework */,
+				3FAFEEBE0BCDAEA4F06E6CAA /* Pods_time_plannerTests.framework */,
+				E400862DB62F3A7D9E75B7EC /* Pods_time_plannerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468F99A61FFE299E00EF297E /* Build configuration list for PBXNativeTarget "time-planner" */;
 			buildPhases = (
+				B8FBB5B47A0DC202DC1589CC /* [CP] Check Pods Manifest.lock */,
 				468F997A1FFE299D00EF297E /* Sources */,
 				468F997B1FFE299D00EF297E /* Frameworks */,
 				468F997C1FFE299D00EF297E /* Resources */,
+				5FE1FBBAF68606BCDF73C953 /* [CP] Embed Pods Frameworks */,
+				153B402295BE609C3AC8445F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468F99A91FFE299E00EF297E /* Build configuration list for PBXNativeTarget "time-plannerTests" */;
 			buildPhases = (
+				490B2E2D1CE7BFD8B2ECD778 /* [CP] Check Pods Manifest.lock */,
 				468F998E1FFE299E00EF297E /* Sources */,
 				468F998F1FFE299E00EF297E /* Frameworks */,
 				468F99901FFE299E00EF297E /* Resources */,
+				D96B2936BBF0E94B27F9D52D /* [CP] Embed Pods Frameworks */,
+				5F1F6C756E8ACCF8F9D923E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 468F99AC1FFE299E00EF297E /* Build configuration list for PBXNativeTarget "time-plannerUITests" */;
 			buildPhases = (
+				D78ED7AB9AEC97014C0F5734 /* [CP] Check Pods Manifest.lock */,
 				468F99991FFE299E00EF297E /* Sources */,
 				468F999A1FFE299E00EF297E /* Frameworks */,
 				468F999B1FFE299E00EF297E /* Resources */,
+				34E250543BEF332B7780679A /* [CP] Embed Pods Frameworks */,
+				DE9B1FC4294D8AD42131F31C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		153B402295BE609C3AC8445F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-time-planner/Pods-time-planner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E250543BEF332B7780679A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-time-plannerUITests/Pods-time-plannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		490B2E2D1CE7BFD8B2ECD778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-time-plannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F1F6C756E8ACCF8F9D923E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-time-plannerTests/Pods-time-plannerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE1FBBAF68606BCDF73C953 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-time-planner/Pods-time-planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FBB5B47A0DC202DC1589CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-time-planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78ED7AB9AEC97014C0F5734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-time-plannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96B2936BBF0E94B27F9D52D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-time-plannerTests/Pods-time-plannerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9B1FC4294D8AD42131F31C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-time-plannerUITests/Pods-time-plannerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		468F997A1FFE299D00EF297E /* Sources */ = {
@@ -424,6 +620,7 @@
 		};
 		468F99A71FFE299E00EF297E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA7C4B3EE5B073E9C72E795 /* Pods-time-planner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +636,7 @@
 		};
 		468F99A81FFE299E00EF297E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F77F8CA26EACCEBEF5F1D3 /* Pods-time-planner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +652,7 @@
 		};
 		468F99AA1FFE299E00EF297E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BB83CF045783710C8EB179 /* Pods-time-plannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +670,7 @@
 		};
 		468F99AB1FFE299E00EF297E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8C6FF528972B59C487A769 /* Pods-time-plannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +688,7 @@
 		};
 		468F99AD1FFE299E00EF297E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8050FAC75A0F657978CBEAFA /* Pods-time-plannerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +705,7 @@
 		};
 		468F99AE1FFE299E00EF297E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF495A58213AF9E4148D1A4F /* Pods-time-plannerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9D3BF1A3F27172EA896A5BC676966A /* Pods-time-plannerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9889D833DD5AF0FC1E3E91DD4DB181F9 /* Pods-time-plannerUITests-dummy.m */; };
+		3EDC68E5916EA9D0F6A38A4BC413E87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6C8C9FE911EAB1CFE37B9CDAD386BDC4 /* Pods-time-planner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEAF26F90AF60987078450B726D50CC /* Pods-time-planner-dummy.m */; };
+		7B6AC10831F8954ADA686613DD58EDCC /* Pods-time-planner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0726664D16CDDDFE65ACEEED4D1C6099 /* Pods-time-planner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD3110863687C430159C170F8EC98AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		941735F7AAF9716C53844509CDB4B64C /* Pods-time-plannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9784B07648858CA37AB62FFEB1356A /* Pods-time-plannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9529D2438BF1B90254372A3394F86208 /* Pods-time-plannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA08EDEB89E98608BAF7AD24FAFC70 /* Pods-time-plannerTests-dummy.m */; };
+		9BF5287BA757F39A851CC4CE291D9817 /* Pods-time-plannerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB285A9C3E3954740984D695EEEE05C /* Pods-time-plannerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE0627E0B7E592790F01449847C43D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03320F74A51F893CC2D93B8C76F80089 /* Pods-time-plannerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-time-plannerUITests-resources.sh"; sourceTree = "<group>"; };
+		04EA08EDEB89E98608BAF7AD24FAFC70 /* Pods-time-plannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-time-plannerTests-dummy.m"; sourceTree = "<group>"; };
+		0726664D16CDDDFE65ACEEED4D1C6099 /* Pods-time-planner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-time-planner-umbrella.h"; sourceTree = "<group>"; };
+		109113EA8CA4A939942C88EA4C5D0CD4 /* Pods-time-plannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-time-plannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F7A0BF5E7448C016D8210FA88952D6A /* Pods-time-planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-time-planner.release.xcconfig"; sourceTree = "<group>"; };
+		2B294BCA9231C90BD2F627CCCE2AAABD /* Pods-time-plannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-time-plannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31BA5F62CC422BE93286BE12F449CA66 /* Pods-time-plannerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-time-plannerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		332F7F0908D6E4131ED2824A1BD06E0F /* Pods-time-plannerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-time-plannerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3890DB06E3A493024AF8534AF0641FB5 /* Pods_time_plannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_time_plannerUITests.framework; path = "Pods-time-plannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FDB35A431570533AC7B5059B6174F8 /* Pods-time-plannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-time-plannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		532E2030A95EC89FDAC1377DC41B0A3D /* Pods-time-plannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-time-plannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E79C815B13CE63C0F6F2E22D7019EEC /* Pods-time-planner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-time-planner.modulemap"; sourceTree = "<group>"; };
+		6EB285A9C3E3954740984D695EEEE05C /* Pods-time-plannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-time-plannerUITests-umbrella.h"; sourceTree = "<group>"; };
+		76A9A072BA84B0876FD477665FF7009E /* Pods-time-plannerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-time-plannerUITests.modulemap"; sourceTree = "<group>"; };
+		7B38261A67B40B4D634B20C1602CF54A /* Pods-time-plannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-time-plannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CEAF26F90AF60987078450B726D50CC /* Pods-time-planner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-time-planner-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9889D833DD5AF0FC1E3E91DD4DB181F9 /* Pods-time-plannerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-time-plannerUITests-dummy.m"; sourceTree = "<group>"; };
+		9895B25F7512C3375CE7F13F3C90731D /* Pods_time_planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_time_planner.framework; path = "Pods-time-planner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13F24C2F1ED3515D3AB231F202DF7CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64F8F969E4335B5C4FA6C7D7F6405ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9784B07648858CA37AB62FFEB1356A /* Pods-time-plannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-time-plannerTests-umbrella.h"; sourceTree = "<group>"; };
+		AC2AC592CFCFE133958E86CF7C4757CA /* Pods-time-plannerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-time-plannerTests-resources.sh"; sourceTree = "<group>"; };
+		ACDEAFCE9F7C290DAFE8A361A8B7FF94 /* Pods-time-planner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-time-planner-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD4B3A87A243F951A1750F78A95811B1 /* Pods-time-planner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-time-planner-resources.sh"; sourceTree = "<group>"; };
+		BB376D1A5EE497460F060DBC8382B2D2 /* Pods-time-plannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-time-plannerTests.modulemap"; sourceTree = "<group>"; };
+		BDC7AD5643EB0356CEF918D2CC9BDAB1 /* Pods_time_plannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_time_plannerTests.framework; path = "Pods-time-plannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A6252C70B3FB5AB1207DEF81F542BD /* Pods-time-plannerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-time-plannerTests-frameworks.sh"; sourceTree = "<group>"; };
+		CA14F02F2A41C1ADFF888EA8305811C9 /* Pods-time-planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-time-planner.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC4F6C6DD29AEDFAEA3B114003C1931 /* Pods-time-plannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-time-plannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0045CDE5EDDD5D4270706FE2EE690DF /* Pods-time-planner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-time-planner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC706171A7D7595F0A3525A2ECDA3A0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5F3AF579A101D284F65390832C8C75 /* Pods-time-planner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-time-planner-frameworks.sh"; sourceTree = "<group>"; };
+		F08FAAB5E083D27F6D8DB697DB12FAF0 /* Pods-time-plannerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-time-plannerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D838BA52FA38051B973D8D5AD212A304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD3110863687C430159C170F8EC98AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5CAA110D4B9D8C3FD335BA858454E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDC68E5916EA9D0F6A38A4BC413E87E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC45AE91168429D0331A263BECFF3DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0627E0B7E592790F01449847C43D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2317118EE13C76782ADA00D497EA35A1 /* Pods-time-plannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC706171A7D7595F0A3525A2ECDA3A0D /* Info.plist */,
+				76A9A072BA84B0876FD477665FF7009E /* Pods-time-plannerUITests.modulemap */,
+				332F7F0908D6E4131ED2824A1BD06E0F /* Pods-time-plannerUITests-acknowledgements.markdown */,
+				F08FAAB5E083D27F6D8DB697DB12FAF0 /* Pods-time-plannerUITests-acknowledgements.plist */,
+				9889D833DD5AF0FC1E3E91DD4DB181F9 /* Pods-time-plannerUITests-dummy.m */,
+				31BA5F62CC422BE93286BE12F449CA66 /* Pods-time-plannerUITests-frameworks.sh */,
+				03320F74A51F893CC2D93B8C76F80089 /* Pods-time-plannerUITests-resources.sh */,
+				6EB285A9C3E3954740984D695EEEE05C /* Pods-time-plannerUITests-umbrella.h */,
+				47FDB35A431570533AC7B5059B6174F8 /* Pods-time-plannerUITests.debug.xcconfig */,
+				109113EA8CA4A939942C88EA4C5D0CD4 /* Pods-time-plannerUITests.release.xcconfig */,
+			);
+			name = "Pods-time-plannerUITests";
+			path = "Target Support Files/Pods-time-plannerUITests";
+			sourceTree = "<group>";
+		};
+		2DA65B8FB8D426C47F24E236546295C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4F0C4614D441C2324C7F6763BCDAFA5 /* Pods-time-planner */,
+				C104BB873B401541AD51AFAAED240BA7 /* Pods-time-plannerTests */,
+				2317118EE13C76782ADA00D497EA35A1 /* Pods-time-plannerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FF48659FB7792E1076088B1A70F8E8B2 /* Products */,
+				2DA65B8FB8D426C47F24E236546295C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C104BB873B401541AD51AFAAED240BA7 /* Pods-time-plannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13F24C2F1ED3515D3AB231F202DF7CC /* Info.plist */,
+				BB376D1A5EE497460F060DBC8382B2D2 /* Pods-time-plannerTests.modulemap */,
+				2B294BCA9231C90BD2F627CCCE2AAABD /* Pods-time-plannerTests-acknowledgements.markdown */,
+				CBC4F6C6DD29AEDFAEA3B114003C1931 /* Pods-time-plannerTests-acknowledgements.plist */,
+				04EA08EDEB89E98608BAF7AD24FAFC70 /* Pods-time-plannerTests-dummy.m */,
+				C6A6252C70B3FB5AB1207DEF81F542BD /* Pods-time-plannerTests-frameworks.sh */,
+				AC2AC592CFCFE133958E86CF7C4757CA /* Pods-time-plannerTests-resources.sh */,
+				AA9784B07648858CA37AB62FFEB1356A /* Pods-time-plannerTests-umbrella.h */,
+				7B38261A67B40B4D634B20C1602CF54A /* Pods-time-plannerTests.debug.xcconfig */,
+				532E2030A95EC89FDAC1377DC41B0A3D /* Pods-time-plannerTests.release.xcconfig */,
+			);
+			name = "Pods-time-plannerTests";
+			path = "Target Support Files/Pods-time-plannerTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4F0C4614D441C2324C7F6763BCDAFA5 /* Pods-time-planner */ = {
+			isa = PBXGroup;
+			children = (
+				A64F8F969E4335B5C4FA6C7D7F6405ED /* Info.plist */,
+				6E79C815B13CE63C0F6F2E22D7019EEC /* Pods-time-planner.modulemap */,
+				E0045CDE5EDDD5D4270706FE2EE690DF /* Pods-time-planner-acknowledgements.markdown */,
+				ACDEAFCE9F7C290DAFE8A361A8B7FF94 /* Pods-time-planner-acknowledgements.plist */,
+				8CEAF26F90AF60987078450B726D50CC /* Pods-time-planner-dummy.m */,
+				EE5F3AF579A101D284F65390832C8C75 /* Pods-time-planner-frameworks.sh */,
+				AD4B3A87A243F951A1750F78A95811B1 /* Pods-time-planner-resources.sh */,
+				0726664D16CDDDFE65ACEEED4D1C6099 /* Pods-time-planner-umbrella.h */,
+				CA14F02F2A41C1ADFF888EA8305811C9 /* Pods-time-planner.debug.xcconfig */,
+				1F7A0BF5E7448C016D8210FA88952D6A /* Pods-time-planner.release.xcconfig */,
+			);
+			name = "Pods-time-planner";
+			path = "Target Support Files/Pods-time-planner";
+			sourceTree = "<group>";
+		};
+		FF48659FB7792E1076088B1A70F8E8B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9895B25F7512C3375CE7F13F3C90731D /* Pods_time_planner.framework */,
+				BDC7AD5643EB0356CEF918D2CC9BDAB1 /* Pods_time_plannerTests.framework */,
+				3890DB06E3A493024AF8534AF0641FB5 /* Pods_time_plannerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		243EEF0180D607FDD12C31CEE5F0F212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF5287BA757F39A851CC4CE291D9817 /* Pods-time-plannerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F83049A04B68A1AC4A35CF114DD932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941735F7AAF9716C53844509CDB4B64C /* Pods-time-plannerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D4094922563D64E804B7B24B89B9EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6AC10831F8954ADA686613DD58EDCC /* Pods-time-planner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02F932BEED749B149BCC147A04B5A8D8 /* Pods-time-plannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959F719C7C1EB7E40A81A6C5FB2269A3 /* Build configuration list for PBXNativeTarget "Pods-time-plannerTests" */;
+			buildPhases = (
+				46CD5395FD997FBC44BF8C616D81C420 /* Sources */,
+				D838BA52FA38051B973D8D5AD212A304 /* Frameworks */,
+				61F83049A04B68A1AC4A35CF114DD932 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-time-plannerTests";
+			productName = "Pods-time-plannerTests";
+			productReference = BDC7AD5643EB0356CEF918D2CC9BDAB1 /* Pods_time_plannerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50E1A6376E82A69112715D3AEFE93466 /* Pods-time-plannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63875533730DF3090D84D2A5CB0DA53E /* Build configuration list for PBXNativeTarget "Pods-time-plannerUITests" */;
+			buildPhases = (
+				4B6F839E38A34A785CF7A49258705E44 /* Sources */,
+				EC45AE91168429D0331A263BECFF3DB3 /* Frameworks */,
+				243EEF0180D607FDD12C31CEE5F0F212 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-time-plannerUITests";
+			productName = "Pods-time-plannerUITests";
+			productReference = 3890DB06E3A493024AF8534AF0641FB5 /* Pods_time_plannerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F75581266B6315C9417E32C5A734087 /* Pods-time-planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1A92F3DA46B9A82DC0DDB0C5237182 /* Build configuration list for PBXNativeTarget "Pods-time-planner" */;
+			buildPhases = (
+				4401CAD364A5CFA5792E7D0510F4C3CF /* Sources */,
+				E5CAA110D4B9D8C3FD335BA858454E6B /* Frameworks */,
+				B4D4094922563D64E804B7B24B89B9EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-time-planner";
+			productName = "Pods-time-planner";
+			productReference = 9895B25F7512C3375CE7F13F3C90731D /* Pods_time_planner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FF48659FB7792E1076088B1A70F8E8B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F75581266B6315C9417E32C5A734087 /* Pods-time-planner */,
+				02F932BEED749B149BCC147A04B5A8D8 /* Pods-time-plannerTests */,
+				50E1A6376E82A69112715D3AEFE93466 /* Pods-time-plannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4401CAD364A5CFA5792E7D0510F4C3CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8C9FE911EAB1CFE37B9CDAD386BDC4 /* Pods-time-planner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CD5395FD997FBC44BF8C616D81C420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9529D2438BF1B90254372A3394F86208 /* Pods-time-plannerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6F839E38A34A785CF7A49258705E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9D3BF1A3F27172EA896A5BC676966A /* Pods-time-plannerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1063C555E9591790A86C7959F04E5166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7A0BF5E7448C016D8210FA88952D6A /* Pods-time-planner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-time-planner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-time-planner/Pods-time-planner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_time_planner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4766FD2AEBA6AE82FACC32C0602A795E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532E2030A95EC89FDAC1377DC41B0A3D /* Pods-time-plannerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-time-plannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-time-plannerTests/Pods-time-plannerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_time_plannerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56730A192FBFEB01207F5FA841EB3964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62F7BA21CEE79256D305084B0C4EA512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA14F02F2A41C1ADFF888EA8305811C9 /* Pods-time-planner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-time-planner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-time-planner/Pods-time-planner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_time_planner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA42724A2AC07BBDCFCB04FAC3A95DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B38261A67B40B4D634B20C1602CF54A /* Pods-time-plannerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-time-plannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-time-plannerTests/Pods-time-plannerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_time_plannerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB9DAAB583F11BAEC9EB581D92B4761A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FDB35A431570533AC7B5059B6174F8 /* Pods-time-plannerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-time-plannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-time-plannerUITests/Pods-time-plannerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_time_plannerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F51A5BB9B68350CAEF4447ED4F7EDFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109113EA8CA4A939942C88EA4C5D0CD4 /* Pods-time-plannerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-time-plannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-time-plannerUITests/Pods-time-plannerUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_time_plannerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56730A192FBFEB01207F5FA841EB3964 /* Debug */,
+				33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63875533730DF3090D84D2A5CB0DA53E /* Build configuration list for PBXNativeTarget "Pods-time-plannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9DAAB583F11BAEC9EB581D92B4761A /* Debug */,
+				F51A5BB9B68350CAEF4447ED4F7EDFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959F719C7C1EB7E40A81A6C5FB2269A3 /* Build configuration list for PBXNativeTarget "Pods-time-plannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA42724A2AC07BBDCFCB04FAC3A95DEB /* Debug */,
+				4766FD2AEBA6AE82FACC32C0602A795E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1A92F3DA46B9A82DC0DDB0C5237182 /* Build configuration list for PBXNativeTarget "Pods-time-planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F7BA21CEE79256D305084B0C4EA512 /* Debug */,
+				1063C555E9591790A86C7959F04E5166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

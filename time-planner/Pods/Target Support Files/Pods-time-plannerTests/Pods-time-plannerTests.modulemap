@@ -1,0 +1,6 @@
+framework module Pods_time_plannerTests {
+  umbrella header "Pods-time-plannerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
